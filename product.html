@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KEM NGHỆ giảm thâm sẹo Thorakao - Chăm sóc da mặt tự nhiên từ tinh chất nghệ nguyên chất">
+  <title>KEM NGHỆ giảm thâm sẹo - Thorakao</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="header-logo" id="logo">
+        <div class="img-placeholder" data-label="Logo">
+          <!-- <img src="images/logo.png" alt="Thorakao Logo"> -->
+        </div>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header-nav" id="headerNav">
+        <a href="index.html#products" class="active">Sản phẩm</a>
+        <a href="#">Thorakao</a>
+        <a href="#">Bài viết</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Tìm kiếm" id="searchBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
+        <a href="#" class="login-text" id="loginLink">Đăng nhập</a>
+        <a href="#" class="cart-link" id="cartLink">Giỏ hàng <span class="cart-count" id="cartCount">0</span></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PRODUCT DETAIL ========== -->
+  <section class="product-detail" id="productDetail">
+    <div class="container">
+
+      <!-- === Left: Product Gallery === -->
+      <div class="product-gallery-main">
+        <div class="product-main-image" id="mainImage">
+          <div class="img-placeholder" data-label="Ảnh chính sản phẩm - Kem Nghệ Thorakao">
+            <!-- <img src="images/products/kem-nghe-main.jpg" alt="Kem Nghệ Thorakao"> -->
+          </div>
+        </div>
+        <div class="product-thumbnails" id="thumbnails">
+          <div class="product-thumbnail active" data-index="0">
+            <div class="img-placeholder" data-label="Thumb 1">
+              <!-- <img src="images/products/kem-nghe-thumb-1.jpg" alt="Thumbnail 1"> -->
+            </div>
+          </div>
+          <div class="product-thumbnail" data-index="1">
+            <div class="img-placeholder" data-label="Thumb 2">
+              <!-- <img src="images/products/kem-nghe-thumb-2.jpg" alt="Thumbnail 2"> -->
+            </div>
+          </div>
+          <div class="product-thumbnail" data-index="2">
+            <div class="img-placeholder" data-label="Thumb 3">
+              <!-- <img src="images/products/kem-nghe-thumb-3.jpg" alt="Thumbnail 3"> -->
+            </div>
+          </div>
+          <div class="product-thumbnail" data-index="3">
+            <div class="img-placeholder" data-label="Thumb 4">
+              <!-- <img src="images/products/kem-nghe-thumb-4.jpg" alt="Thumbnail 4"> -->
+            </div>
+          </div>
+          <div class="product-thumbnail" data-index="4">
+            <div class="img-placeholder" data-label="Thumb 5">
+              <!-- <img src="images/products/kem-nghe-thumb-5.jpg" alt="Thumbnail 5"> -->
+            </div>
+          </div>
+          <div class="product-thumbnail" data-index="5">
+            <div class="img-placeholder" data-label="Thumb 6">
+              <!-- <img src="images/products/kem-nghe-thumb-6.jpg" alt="Thumbnail 6"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- === Right: Product Info === -->
+      <div class="product-info">
+        <div class="product-name-row">
+          <h1 class="product-name">KEM NGHỆ giảm thâm sẹo Thorakao</h1>
+          <span class="product-weight">47g</span>
+        </div>
+
+        <div class="product-tags">
+          <span>Chăm sóc da mặt</span>
+          <span>Giảm thâm mụn</span>
+          <span>Làm sáng da</span>
+          <span>Tinh chất Nghệ</span>
+        </div>
+
+        <p class="product-price">47.000 đ</p>
+
+        <label class="quantity-label">Số lượng</label>
+        <div class="quantity-selector" id="quantitySelector">
+          <button class="qty-minus" id="qtyMinus" aria-label="Giảm số lượng">−</button>
+          <span class="qty-value" id="qtyValue">0</span>
+          <button class="qty-plus" id="qtyPlus" aria-label="Tăng số lượng">+</button>
+        </div>
+
+        <button class="btn-add-cart" id="btnAddCart">THÊM VÀO GIỎ HÀNG</button>
+
+        <!-- Accordion Sections -->
+        <div class="accordion-list" id="accordionList">
+          <div class="accordion-item">
+            <button class="accordion-header" id="accordion-qty">
+              <span>Số lượng</span>
+              <span class="chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Trọng lượng tịnh: 47g<br>
+                Quy cách đóng gói: Hộp<br>
+                Hạn sử dụng: 3 năm kể từ ngày sản xuất.<br>
+                Xuất xứ: Việt Nam
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" id="accordion-suitable">
+              <span>Phù hợp cho</span>
+              <span class="chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                • Mọi loại da, đặc biệt là da có vấn đề về thâm mụn<br>
+                • Da bị sẹo thâm sau mụn<br>
+                • Da xỉn màu, không đều màu<br>
+                • Da cần dưỡng sáng tự nhiên
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" id="accordion-usage">
+              <span>Công dụng</span>
+              <span class="chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                • Giảm thâm sẹo hiệu quả nhờ tinh chất nghệ nguyên chất<br>
+                • Làm sáng da tự nhiên, đều màu da<br>
+                • Dưỡng ẩm, giữ cho da mềm mịn<br>
+                • Ngăn ngừa lão hóa da sớm<br>
+                • Bảo vệ da khỏi tác hại môi trường
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" id="accordion-ingredients">
+              <span>Thành phần chính</span>
+              <span class="chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                • Tinh chất Nghệ (Curcuma Longa Extract)<br>
+                • Vitamin E<br>
+                • Dầu dừa nguyên chất<br>
+                • Sáp ong tự nhiên<br>
+                • Tinh dầu thiên nhiên
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" id="accordion-howto">
+              <span>Cách sử dụng</span>
+              <span class="chevron">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"/>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              <div class="accordion-content-inner">
+                Bước 1: Rửa mặt sạch, lau khô nhẹ nhàng.<br>
+                Bước 2: Lấy một lượng kem vừa đủ thoa đều lên vùng da cần chăm sóc.<br>
+                Bước 3: Massage nhẹ nhàng theo vòng tròn cho kem thấm đều.<br>
+                Bước 4: Sử dụng đều đặn mỗi tối trước khi đi ngủ để đạt hiệu quả tốt nhất.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Share -->
+        <div class="share-section">
+          <span class="share-label">Chia sẻ</span>
+          <a href="#" aria-label="Chia sẻ Facebook" id="shareFacebook">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Chia sẻ Instagram" id="shareInstagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Sao chép liên kết" id="shareLink">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/>
+              <path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== TIKTOK REVIEWS ========== -->
+  <section class="tiktok-reviews" id="tiktokReviews">
+    <div class="container">
+      <div class="tiktok-info">
+        <h4>Video xu hướng trên Tiktok</h4>
+        <h2>Đánh giá<br>sản phẩm</h2>
+        <div class="tiktok-hashtags">
+          <a href="#">#kemnghethorakao</a>
+          <a href="#">#giamthammun</a>
+          <a href="#">#kemnghe</a>
+          <a href="#">#sangda</a>
+        </div>
+      </div>
+      <div class="tiktok-right">
+        <p class="tiktok-handle">@mypham_thorakao</p>
+        <div class="tiktok-videos">
+          <div class="tiktok-video">
+            <div class="img-placeholder" data-label="TikTok Video 1 - Review Kem Nghệ">
+              <!-- <img src="images/tiktok/tiktok-1.jpg" alt="TikTok Review 1"> -->
+            </div>
+          </div>
+          <div class="tiktok-video">
+            <div class="img-placeholder" data-label="TikTok Video 2 - Hướng dẫn sử dụng">
+              <!-- <img src="images/tiktok/tiktok-2.jpg" alt="TikTok Review 2"> -->
+            </div>
+          </div>
+          <div class="tiktok-video">
+            <div class="img-placeholder" data-label="TikTok Video 3 - Kết quả sau 30 ngày">
+              <!-- <img src="images/tiktok/tiktok-3.jpg" alt="TikTok Review 3"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p class="footer-tagline">TRAO TRUYỀN VẺ ĐẸP VIỆT</p>
+      <p class="footer-symbols">ñ Ñ ○ ○ ∪</p>
+      <h2 class="footer-brand">THORAKAO</h2>
+      <div class="footer-links">
+        <a href="index.html#products">Sản phẩm</a>
+        <a href="#">Về Thorakao</a>
+        <a href="#">Bài viết</a>
+        <a href="#">Liên hệ</a>
+        <a href="#">Chính sách</a>
+      </div>
+      <p class="footer-copyright">© 2024 Thorakao. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

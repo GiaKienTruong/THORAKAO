@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Thorakao - Truyền trao vẻ đẹp Việt. Mỹ phẩm thiên nhiên Việt Nam từ năm 1961 với thành phần chiết xuất từ nghệ, bưởi, bồ kết.">
+  <meta name="keywords" content="Thorakao, mỹ phẩm, kem nghệ, dầu gội bồ kết, chăm sóc da, thiên nhiên, Việt Nam">
+  <title>Thorakao - Truyền Trao Vẻ Đẹp Việt</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="header-logo" id="logo" aria-label="Trang chủ Thorakao">
+        <div class="img-placeholder logo-placeholder" data-label="Logo Thorakao">
+          <!-- <img src="images/logo.png" alt="Thorakao Logo"> -->
+        </div>
+      </a>
+
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Mở menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="header-nav" id="headerNav">
+        <a href="#products" class="active">Sản phẩm</a>
+        <a href="#about">Thorakao</a>
+        <a href="#articles">Bài viết</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Tìm kiếm" id="searchBtn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="M21 21l-4.35-4.35"/>
+          </svg>
+        </button>
+        <a href="#" class="login-text" id="loginLink">Đăng nhập</a>
+        <a href="product.html" class="cart-link" id="cartLink">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span>Giỏ hàng</span>
+          <span class="cart-count" id="cartCount">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== 1. HERO SECTION ========== -->
+  <section class="hero reveal" id="hero">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1 class="hero-title fade-in-up">TRUYỀN TRAO<br>VẺ ĐẸP VIỆT</h1>
+        <p class="hero-subtitle fade-in-up delay-2">
+          Thorakao tự hào là thương hiệu mỹ phẩm thiên nhiên Việt Nam từ năm 1961 với thành phần chiết xuất từ thiên nhiên như nghệ, bưởi, bồ kết lành tính, chăm sóc dịu nhẹ và gìn giữ nét đẹp thuần khiết cho phụ nữ Việt qua nhiều thế hệ.
+        </p>
+      </div>
+      <div class="hero-image-wrapper">
+        <div class="img-placeholder hero-placeholder" data-label="Bộ sản phẩm Thorakao (Chai dầu gội Bồ Kết, Dầu gội Hoa Bưởi, Tuýp Dầu dừa & 2 hũ Kem Nghệ)">
+          <!-- <img src="images/hero-products.jpg" alt="Bộ sản phẩm Thorakao"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 2. KEM NGHỆ FEATURE SECTION ========== -->
+  <section class="kem-nghe-feature reveal" id="kemNgheFeature">
+    <div class="container kem-nghe-container">
+      <div class="kem-nghe-left">
+        <span class="badge-label">Kem Nghệ</span>
+        <p class="badge-sub">Chiết xuất nghệ tươi<br>Từ năm 1961</p>
+      </div>
+
+      <div class="kem-nghe-center">
+        <div class="img-placeholder kem-nghe-placeholder" data-label="Hũ Kem Nghệ Thorakao 3D & lát nghệ tươi xung quanh">
+          <!-- <img src="images/kem-nghe-featured.png" alt="Kem Nghệ Thorakao"> -->
+        </div>
+      </div>
+
+      <div class="kem-nghe-right">
+        <p class="kem-nghe-desc">
+          Kem nghệ Thorakao với thành phần tinh chiết từ củ nghệ thiên nhiên nguyên chất, kết hợp cùng vitamin E và các dưỡng chất lành tính giúp làm mờ vết thâm mụn, ngừa sẹo, tái tạo tế bào da mới và nuôi dưỡng làn da mịn màng, trắng hồng tự nhiên.
+        </p>
+        <a href="product.html?id=kem-nghe" class="btn-detail-link">Xem chi tiết &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 3. NGUYÊN LIỆU THIÊN NHIÊN (5 Vertical Ingredient Cards) ========== -->
+  <section class="ingredients-section reveal" id="ingredients">
+    <div class="ingredients-container">
+      <div class="ingredients-grid">
+        <!-- 1. Bồ kết -->
+        <div class="ingredient-card" id="ing-boket">
+          <div class="img-placeholder ing-placeholder" data-label="Bồ Kết">
+            <!-- <img src="images/ingredients/bo-ket.jpg" alt="Bồ Kết"> -->
+          </div>
+          <div class="ing-overlay">
+            <span class="ing-tag">Dầu gội</span>
+            <h3 class="ing-name">BỒ KẾT</h3>
+          </div>
+        </div>
+
+        <!-- 2. Hoa bưởi -->
+        <div class="ingredient-card" id="ing-hoabuoi">
+          <div class="img-placeholder ing-placeholder" data-label="Hoa Bưởi">
+            <!-- <img src="images/ingredients/hoa-buoi.jpg" alt="Hoa Bưởi"> -->
+          </div>
+          <div class="ing-overlay">
+            <span class="ing-tag">Dưỡng tóc</span>
+            <h3 class="ing-name">HOA BƯỞI</h3>
+          </div>
+        </div>
+
+        <!-- 3. Củ nghệ -->
+        <div class="ingredient-card" id="ing-cunghie">
+          <div class="img-placeholder ing-placeholder" data-label="Củ Nghệ">
+            <!-- <img src="images/ingredients/cu-nghe.jpg" alt="Củ Nghệ"> -->
+          </div>
+          <div class="ing-overlay">
+            <span class="ing-tag">Mỹ phẩm da</span>
+            <h3 class="ing-name">CỦ NGHỆ</h3>
+          </div>
+        </div>
+
+        <!-- 4. Nhân sâm -->
+        <div class="ingredient-card" id="ing-nhansam">
+          <div class="img-placeholder ing-placeholder" data-label="Nhân Sâm">
+            <!-- <img src="images/ingredients/nhan-sam.jpg" alt="Nhân Sâm"> -->
+          </div>
+          <div class="ing-overlay">
+            <span class="ing-tag">Dưỡng da</span>
+            <h3 class="ing-name">NHÂN SÂM</h3>
+          </div>
+        </div>
+
+        <!-- 5. Bơ hạt mỡ -->
+        <div class="ingredient-card" id="ing-bohatmo">
+          <div class="img-placeholder ing-placeholder" data-label="Bơ Hạt Mỡ">
+            <!-- <img src="images/ingredients/bo-hat-mo.jpg" alt="Bơ Hạt Mỡ"> -->
+          </div>
+          <div class="ing-overlay">
+            <span class="ing-tag">Giữ ẩm</span>
+            <h3 class="ing-name">BƠ HẠT MỠ</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 4. BEST SELLER ========== -->
+  <section class="best-seller reveal" id="bestSeller">
+    <div class="container">
+      <div class="section-title-wrap">
+        <h2 class="section-title">BEST SELLER</h2>
+      </div>
+
+      <div class="bestseller-layout">
+        <!-- Feature Image (Left) -->
+        <div class="bestseller-featured-banner">
+          <div class="img-placeholder featured-placeholder" data-label="Cô gái cầm hũ Kem Nghệ Thorakao">
+            <!-- <img src="images/bestsellers/featured-girl.jpg" alt="Kem Nghệ Thorakao"> -->
+          </div>
+        </div>
+
+        <!-- Product Cards (Right Grid) -->
+        <div class="bestseller-cards">
+          <!-- Item 1 -->
+          <a href="product.html?id=kem-nghe" class="product-mini-card">
+            <div class="img-placeholder mini-placeholder" data-label="Kem Nghệ Thorakao 7g/47g">
+              <!-- <img src="images/bestsellers/kem-nghe.jpg" alt="Kem Nghệ"> -->
+            </div>
+            <div class="mini-info">
+              <h4>Kem Nghệ</h4>
+              <p class="mini-price">47.000 đ</p>
+            </div>
+          </a>
+
+          <!-- Item 2 -->
+          <a href="product.html?id=sua-rua-mat" class="product-mini-card">
+            <div class="img-placeholder mini-placeholder" data-label="Sữa Rửa Mặt Hạt Nghệ">
+              <!-- <img src="images/bestsellers/sua-rua-mat.jpg" alt="Sữa Rửa Mặt"> -->
+            </div>
+            <div class="mini-info">
+              <h4>Sữa Rửa Mặt Hạt</h4>
+              <p class="mini-price">55.000 đ</p>
+            </div>
+          </a>
+
+          <!-- Item 3 -->
+          <a href="product.html?id=kem-duong-da" class="product-mini-card">
+            <div class="img-placeholder mini-placeholder" data-label="Kem Dưỡng Da Sâm Thorakao">
+              <!-- <img src="images/bestsellers/kem-sam.jpg" alt="Kem Sâm"> -->
+            </div>
+            <div class="mini-info">
+              <h4>Kem Dưỡng Sâm</h4>
+              <p class="mini-price">62.000 đ</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Slider indicator -->
+      <div class="bestseller-indicator">
+        <div class="indicator-bar active"></div>
+        <div class="indicator-bar"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 5. CHĂM SÓC KÉP / ROUTINE SECTION ========== -->
+  <section class="care-routine reveal" id="routine">
+    <div class="container">
+      <div class="care-grid">
+        <!-- Card 1: Kem nghệ chăm sóc da -->
+        <div class="care-card">
+          <div class="care-card-img">
+            <div class="img-placeholder care-placeholder" data-label="Hũ Kem Nghệ nền trời xanh và nghệ tươi">
+              <!-- <img src="images/routine-kem-nghe.jpg" alt="Kem nghệ chăm da"> -->
+            </div>
+          </div>
+          <div class="care-card-content">
+            <h3>Kem nghệ nên dùng khi nào trong chu trình chăm da?</h3>
+            <a href="product.html?id=kem-nghe" class="btn-pill-action">
+              <span>Tìm hiểu thêm</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Dầu gội bồ kết -->
+        <div class="care-card">
+          <div class="care-card-content top-content">
+            <h3>Chăm sóc chắc khỏe từ thành phần bồ kết truyền thống</h3>
+            <a href="product.html?id=bo-ket" class="btn-pill-action">
+              <span>Tìm hiểu thêm</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
+          <div class="care-card-img">
+            <div class="img-placeholder care-placeholder" data-label="Chai Dầu gội Bồ Kết trong túi lưới đan thủ công & trái bồ kết">
+              <!-- <img src="images/routine-bo-ket.jpg" alt="Dầu gội bồ kết"> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 6. HOÀN HẢO TỪ TỰ NHIÊN (Orange Turmeric Banner) ========== -->
+  <section class="banner-turmeric reveal" id="perfectNature">
+    <div class="banner-turmeric-bg">
+      <div class="img-placeholder banner-turmeric-placeholder" data-label="Banner củ nghệ tươi vàng 2 bên & nền cam ấm">
+        <!-- <img src="images/banner-turmeric.jpg" alt="Hoàn hảo từ tự nhiên"> -->
+      </div>
+      <div class="banner-turmeric-overlay">
+        <h2>Hoàn hảo từ tự nhiên</h2>
+        <p>Mỗi lọ kem nghệ, mỗi nhánh bồ kết đều là cả tâm huyết của Thorakao nhằm mang trọn vẹn tinh hoa thảo mộc phương Đông đến cho người phụ nữ Việt.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 7. FOUNDER QUOTE ========== -->
+  <section class="founder-section reveal" id="founder">
+    <div class="container founder-container">
+      <div class="founder-quote-box">
+        <blockquote>
+          “Luôn luôn cam kết mang tới những sản phẩm tốt nhất với chất lượng tuyệt hảo cùng những nguyên liệu thiên nhiên an toàn và lành tính”
+        </blockquote>
+        <p class="founder-title">
+          <strong>Người sáng lập Thorakao</strong><br>
+          <span>Ông Huỳnh Kỳ Trân</span>
+        </p>
+      </div>
+
+      <div class="founder-photo-box">
+        <div class="img-placeholder founder-placeholder" data-label="Chân dung người sáng lập Thorakao (Áo vest lịch sự, nụ cười đôn hậu)">
+          <!-- <img src="images/founder-portrait.png" alt="Người sáng lập Thorakao"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 8. TIKTOK / SOCIAL STORIES (6 Vertical Reels) ========== -->
+  <section class="tiktok-reels-section reveal" id="tiktokSection">
+    <div class="container">
+      <div class="tiktok-header">
+        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" class="tiktok-handle-badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298 0 .593.045.876.134V9.38a6.34 6.34 0 0 0-.876-.06 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.34-6.34V9.08a8.28 8.28 0 0 0 5.23 1.83v-3.46a4.85 4.85 0 0 1-1.46-.76z"/>
+          </svg>
+          <span>@mypham_thorakao</span>
+        </a>
+      </div>
+
+      <div class="reels-grid">
+        <!-- Reel 1 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 1: Nấu nước bồ kết truyền thống">
+            <!-- <img src="images/reels/reel-1.jpg" alt="Nấu bồ kết"> -->
+          </div>
+        </div>
+
+        <!-- Reel 2 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 2: Texture chất kem nghệ vàng mịn">
+            <!-- <img src="images/reels/reel-2.jpg" alt="Chất kem nghệ"> -->
+          </div>
+        </div>
+
+        <!-- Reel 3 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 3: Vòi nhấn dầu gội bồ kết đậm đặc">
+            <!-- <img src="images/reels/reel-3.jpg" alt="Dầu gội đậm đặc"> -->
+          </div>
+        </div>
+
+        <!-- Reel 4 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 4: Bộ đôi Dầu gội & Dầu xả">
+            <!-- <img src="images/reels/reel-4.jpg" alt="Bộ đôi chăm sóc tóc"> -->
+          </div>
+        </div>
+
+        <!-- Reel 5 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 5: Hũ kem nghệ nắp vàng mở nắp">
+            <!-- <img src="images/reels/reel-5.jpg" alt="Hũ kem nghệ"> -->
+          </div>
+        </div>
+
+        <!-- Reel 6 -->
+        <div class="reel-item">
+          <div class="img-placeholder reel-placeholder" data-label="Video 6: Chi tiết nắp hũ dập nổi Thorakao">
+            <!-- <img src="images/reels/reel-6.jpg" alt="Chi tiết nắp hũ"> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 9. RETAIL PARTNERS LOGO STRIP ========== -->
+  <section class="partners-bar" id="partners">
+    <div class="container partners-container">
+      <div class="partner-logo-item">
+        <div class="img-placeholder partner-placeholder" data-label="medicare">
+          <!-- <img src="images/partners/medicare.png" alt="Medicare"> -->
+        </div>
+      </div>
+      <div class="partner-logo-item">
+        <div class="img-placeholder partner-placeholder" data-label="guardian">
+          <!-- <img src="images/partners/guardian.png" alt="Guardian"> -->
+        </div>
+      </div>
+      <div class="partner-logo-item">
+        <div class="img-placeholder partner-placeholder" data-label="Pharmacity">
+          <!-- <img src="images/partners/pharmacity.png" alt="Pharmacity"> -->
+        </div>
+      </div>
+      <div class="partner-logo-item">
+        <div class="img-placeholder partner-placeholder" data-label="watsons">
+          <!-- <img src="images/partners/watsons.png" alt="Watsons"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== 10. BLUE FOOTER ========== -->
+  <footer class="footer-blue" id="footer">
+    <div class="container">
+      <!-- Top Title & Newsletter -->
+      <div class="footer-top">
+        <h2 class="footer-headline">TRAO TRUYỀN<br>VẺ ĐẸP VIỆT</h2>
+        <div class="footer-newsletter">
+          <input type="email" placeholder="Nhập email của bạn để nhận thông tin ưu đãi..." id="newsletterEmail" aria-label="Email nhận tin">
+          <button type="button" class="btn-newsletter" aria-label="Gửi email">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Symbols Row -->
+      <div class="footer-symbols">
+        <span>ñ</span>
+        <span>Ñ</span>
+        <span>○</span>
+        <span>○</span>
+        <span>∪</span>
+      </div>
+
+      <!-- Footer Columns -->
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h4>Về Thorakao</h4>
+          <ul>
+            <li><a href="#">Lịch sử thương hiệu</a></li>
+            <li><a href="#">Thành phần thiên nhiên</a></li>
+            <li><a href="#">Quy trình sản xuất</a></li>
+            <li><a href="#">Hệ thống phân phối</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Chăm sóc khách hàng</h4>
+          <ul>
+            <li><a href="#">Hướng dẫn mua hàng</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Chính sách bảo mật</a></li>
+            <li><a href="#">Câu hỏi thường gặp</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Liên hệ</h4>
+          <p>241Bis Cách Mạng Tháng 8, P.4, Q.3, TP.HCM</p>
+          <p>Hotline: (028) 3832 7381</p>
+          <p>Email: info@thorakao.com</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Thanh toán & Chứng nhận</h4>
+          <div class="payment-badges">
+            <span class="badge-tag">MoMo</span>
+            <span class="badge-tag">VNPAY</span>
+            <span class="badge-tag">VISA</span>
+            <span class="badge-tag">COD</span>
+          </div>
+          <div class="cert-badges">
+            <span class="badge-cert">Hàng VNCLC</span>
+            <span class="badge-cert">Bộ Công Thương</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Giant Brand Typography -->
+      <div class="footer-giant-brand">
+        THORAKAO
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p class="copyright">© 2024 Thorakao. All rights reserved. GPKD số 0300452368 cấp ngày 15/09/1997 tại TP.HCM</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="TikTok">TT</a>
+          <a href="#" aria-label="Shopee">SHP</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
