@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const PRODUCTS_DB = {
     'kem-nghe': {
       title: 'KEM NGHỆ giảm thâm sẹo Thorakao',
-      weight: '47g',
+      weight: '7g',
       categoryTags: 'Chăm sóc da mặt • Giảm thâm mụn • Làm sáng da • Tinh chất Nghệ',
       price: '47.000 đ',
       mainImage: 'images/products/kem-nghe/artboard_1.png',
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ],
       hashtags: ['#kemnghethorakao', '#giamthammun', '#kemnghe', '#sangda'],
       accordions: {
-        qty: 'Trọng lượng tịnh: 47g | Quy cách: Hộp dập nổi thương hiệu | Hạn sử dụng: 3 năm kể từ ngày sản xuất.',
+        qty: 'Trọng lượng tịnh: 7g | Quy cách: Hộp dập nổi thương hiệu | Hạn sử dụng: 3 năm kể từ ngày sản xuất.',
         suitable: '• Mọi loại da, đặc biệt là da có vấn đề về thâm mụn và sẹo sau mụn.<br>• Da xỉn màu, cần tái tạo và dưỡng sáng dịu nhẹ.',
         usage: '• Làm mờ sẹo thâm sau mụn nhanh chóng nhờ curcumin nguyên chất.<br>• Kháng viêm nhẹ, ngừa mụn tái phát.<br>• Dưỡng ẩm mềm mịn và làm đều màu da.',
         ingredients: 'Tinh chất củ nghệ tươi (Curcuma Longa Root Extract), Vitamin E, Sáp ong tự nhiên, Dầu khoáng y tế.',
