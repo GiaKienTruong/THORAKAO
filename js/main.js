@@ -13,18 +13,20 @@ document.addEventListener('DOMContentLoaded', () => {
       weight: '47g',
       categoryTags: 'Chăm sóc da mặt • Giảm thâm mụn • Làm sáng da • Tinh chất Nghệ',
       price: '47.000 đ',
-      mainImage: 'images/Rectangle_4.png',
+      mainImage: 'images/products/kem-nghe/artboard_1.png',
       thumbnails: [
-        'images/Rectangle_4.png',
-        'images/Rectangle_17.png',
-        'images/ChatGPT_Image_Jul_15__2026__03_24_37_AM_1.png',
-        'images/ChatGPT_Image_Jul_15__2026__03_21_18_AM_1.png',
-        'images/Rectangle_25.svg',
-        'images/Woman_applying_cream_on_cheek_202607111609_1.png'
+        'images/products/kem-nghe/artboard_1.png',
+        'images/products/kem-nghe/artboard_2.png',
+        'images/products/kem-nghe/artboard_3.png',
+        'images/products/kem-nghe/artboard_4.png',
+        'images/products/kem-nghe/artboard_5.png',
+        'images/products/kem-nghe/artboard_6.png',
+        'images/products/kem-nghe/artboard_7.png',
+        'images/products/kem-nghe/artboard_8.png'
       ],
       hashtags: ['#kemnghethorakao', '#giamthammun', '#kemnghe', '#sangda'],
       accordions: {
-        qty: 'Trọng lượng tịnh: 47g | Quy cách: Hộp | Hạn sử dụng: 3 năm kể từ ngày sản xuất.',
+        qty: 'Trọng lượng tịnh: 47g | Quy cách: Hộp dập nổi thương hiệu | Hạn sử dụng: 3 năm kể từ ngày sản xuất.',
         suitable: '• Mọi loại da, đặc biệt là da có vấn đề về thâm mụn và sẹo sau mụn.<br>• Da xỉn màu, cần tái tạo và dưỡng sáng dịu nhẹ.',
         usage: '• Làm mờ sẹo thâm sau mụn nhanh chóng nhờ curcumin nguyên chất.<br>• Kháng viêm nhẹ, ngừa mụn tái phát.<br>• Dưỡng ẩm mềm mịn và làm đều màu da.',
         ingredients: 'Tinh chất củ nghệ tươi (Curcuma Longa Root Extract), Vitamin E, Sáp ong tự nhiên, Dầu khoáng y tế.',
@@ -37,12 +39,16 @@ document.addEventListener('DOMContentLoaded', () => {
       weight: '47g',
       categoryTags: 'Chăm sóc da mặt • Chống lão hoá • Làm sáng da • Tinh chất Sâm',
       price: '62.000 đ',
-      mainImage: 'images/Rectangle_4_3.png',
+      mainImage: 'images/products/kem-sam/thumb_1.png',
       thumbnails: [
-        'images/Rectangle_4_3.png',
-        'images/category_4.png',
-        'images/Rectangle_25.svg',
-        'images/Woman_applying_cream_on_cheek_202607111609_1.png'
+        'images/products/kem-sam/thumb_1.png',
+        'images/products/kem-sam/thumb_2.png',
+        'images/products/kem-sam/thumb_3.png',
+        'images/products/kem-sam/thumb_4.png',
+        'images/products/kem-sam/thumb_5.png',
+        'images/products/kem-sam/thumb_6.png',
+        'images/products/kem-sam/thumb_7.png',
+        'images/products/kem-sam/thumb_8.png'
       ],
       hashtags: ['#kemsamthorakao', '#chonglaohoa', '#kemsam', '#duongtrang'],
       accordions: {
@@ -59,13 +65,16 @@ document.addEventListener('DOMContentLoaded', () => {
       weight: '400ml',
       categoryTags: 'Chăm sóc tóc • Trị gàu ngứa • Phục hồi tóc hư tổn • Tinh chất Bồ kết',
       price: '68.000 đ',
-      mainImage: 'images/product-bo-ket.png',
+      mainImage: 'images/products/bo-ket/thumb_1.png',
       thumbnails: [
-        'images/product-bo-ket.png',
-        'images/Rectangle_18.png',
-        'images/category.png',
-        'images/Rectangle_24.svg',
-        'images/Rectangle_26.svg'
+        'images/products/bo-ket/thumb_1.png',
+        'images/products/bo-ket/thumb_2.png',
+        'images/products/bo-ket/thumb_3.png',
+        'images/products/bo-ket/thumb_4.png',
+        'images/products/bo-ket/thumb_5.png',
+        'images/products/bo-ket/thumb_6.png',
+        'images/products/bo-ket/thumb_7.png',
+        'images/products/bo-ket/thumb_8.png'
       ],
       hashtags: ['#daugoiboket', '#thorakao', '#trigau', '#muottoc'],
       accordions: {
@@ -82,12 +91,16 @@ document.addEventListener('DOMContentLoaded', () => {
       weight: '400ml',
       categoryTags: 'Chăm sóc tóc • Phục hồi tóc hư tổn • Tinh chất Hoa bưởi',
       price: '75.000 đ',
-      mainImage: 'images/product-hoa-buoi.png',
+      mainImage: 'images/products/hoa-buoi/thumb_1.png',
       thumbnails: [
-        'images/product-hoa-buoi.png',
-        'images/category_2.png',
-        'images/Rectangle_27.svg',
-        'images/Rectangle_26.svg'
+        'images/products/hoa-buoi/thumb_1.png',
+        'images/products/hoa-buoi/thumb_2.png',
+        'images/products/hoa-buoi/thumb_3.png',
+        'images/products/hoa-buoi/thumb_4.png',
+        'images/products/hoa-buoi/thumb_5.png',
+        'images/products/hoa-buoi/thumb_6.png',
+        'images/products/hoa-buoi/thumb_7.png',
+        'images/products/hoa-buoi/thumb_8.png'
       ],
       hashtags: ['#daugoihoabuoi', '#giamgayrung', '#thorakao', '#tocdaymuot'],
       accordions: {
@@ -104,11 +117,16 @@ document.addEventListener('DOMContentLoaded', () => {
       weight: '80ml',
       categoryTags: 'Chăm sóc thân thể • Cấp ẩm sâu • Mịn màng da tay',
       price: '55.000 đ',
-      mainImage: 'images/Rectangle_4_2.png',
+      mainImage: 'images/products/kem-thoa-tay/thumb_1.png',
       thumbnails: [
-        'images/Rectangle_4_2.png',
-        'images/category_5.png',
-        'images/Frame_20198.png'
+        'images/products/kem-thoa-tay/thumb_1.png',
+        'images/products/kem-thoa-tay/thumb_2.png',
+        'images/products/kem-thoa-tay/thumb_3.png',
+        'images/products/kem-thoa-tay/thumb_4.png',
+        'images/products/kem-thoa-tay/thumb_5.png',
+        'images/products/kem-thoa-tay/thumb_6.png',
+        'images/products/kem-thoa-tay/thumb_7.png',
+        'images/products/kem-thoa-tay/thumb_8.png'
       ],
       hashtags: ['#kemthoatay', '#bohatmo', '#thorakao', '#memminda'],
       accordions: {
@@ -129,6 +147,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // =============================================
   // 2. RENDER PRODUCT DETAIL PAGE DYNAMICALLY
   // =============================================
+  let productGalleryAutoTimer = null;
+
   const renderProductDetailPage = () => {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get('id') || 'kem-nghe';
@@ -153,38 +173,148 @@ document.addEventListener('DOMContentLoaded', () => {
     const priceEl = document.querySelector('.product-price-main');
     if (priceEl) priceEl.textContent = product.price;
 
-    // Main Image
+    // Gallery Elements
+    const mainView = document.getElementById('mainImageView');
     const mainImgEl = document.getElementById('mainProductImg');
-    if (mainImgEl) {
-      mainImgEl.src = product.mainImage;
-      mainImgEl.alt = product.title;
-    }
-
-    // Thumbnails Grid
     const thumbsContainer = document.getElementById('thumbnails');
-    if (thumbsContainer && product.thumbnails) {
+    const galleryContainer = document.querySelector('.product-gallery-container');
+
+    const thumbnailsList = product.thumbnails && product.thumbnails.length > 0
+      ? product.thumbnails
+      : [product.mainImage];
+
+    let currentSlideIdx = 0;
+    let isTransitioning = false;
+
+    // Switch Image Function with Ultra-Smooth Transition
+    const goToSlide = (idx, isManual = false) => {
+      if (!mainImgEl || thumbnailsList.length === 0) return;
+      currentSlideIdx = (idx + thumbnailsList.length) % thumbnailsList.length;
+      const targetSrc = thumbnailsList[currentSlideIdx];
+
+      // Update thumbnails UI
+      const thumbItems = thumbsContainer?.querySelectorAll('.thumb-item');
+      thumbItems?.forEach((t, i) => {
+        t.classList.toggle('active', i === currentSlideIdx);
+      });
+
+      // Smooth Crossfade Effect
+      if (mainImgEl.src !== targetSrc && !isTransitioning) {
+        isTransitioning = true;
+        mainImgEl.classList.add('img-fading');
+        
+        setTimeout(() => {
+          mainImgEl.src = targetSrc;
+          mainImgEl.alt = `${product.title} - ${currentSlideIdx + 1}`;
+          
+          // Once image starts loading / next frame, fade back in
+          requestAnimationFrame(() => {
+            mainImgEl.classList.remove('img-fading');
+            setTimeout(() => {
+              isTransitioning = false;
+            }, 250);
+          });
+        }, 160);
+      }
+    };
+
+    // Auto-Slide Logic
+    const stopAutoSlide = () => {
+      if (productGalleryAutoTimer) {
+        clearInterval(productGalleryAutoTimer);
+        productGalleryAutoTimer = null;
+      }
+    };
+
+    const startAutoSlide = () => {
+      stopAutoSlide();
+      if (thumbnailsList.length > 1) {
+        productGalleryAutoTimer = setInterval(() => {
+          goToSlide(currentSlideIdx + 1);
+        }, 3500);
+      }
+    };
+
+    // Render Thumbnails Grid
+    if (thumbsContainer) {
       thumbsContainer.innerHTML = '';
-      product.thumbnails.forEach((src, idx) => {
+      thumbnailsList.forEach((src, idx) => {
         const thumbDiv = document.createElement('div');
         thumbDiv.className = `thumb-item ${idx === 0 ? 'active' : ''}`;
         thumbDiv.setAttribute('data-src', src);
+        thumbDiv.setAttribute('title', `Ảnh ${idx + 1}`);
         thumbDiv.innerHTML = `<img src="${src}" alt="${product.title} ${idx + 1}">`;
-        
+
         thumbDiv.addEventListener('click', () => {
-          document.querySelectorAll('.thumb-item').forEach(t => t.classList.remove('active'));
-          thumbDiv.classList.add('active');
-          if (mainImgEl) {
-            mainImgEl.style.opacity = '0.3';
-            setTimeout(() => {
-              mainImgEl.src = src;
-              mainImgEl.style.opacity = '1';
-            }, 120);
-          }
+          goToSlide(idx, true);
+          startAutoSlide(); // Reset auto timer
         });
 
         thumbsContainer.appendChild(thumbDiv);
       });
     }
+
+    // Set initial image
+    if (mainImgEl) {
+      mainImgEl.src = thumbnailsList[0];
+      mainImgEl.alt = product.title;
+    }
+
+    // Pause on gallery hover & resume on mouseleave
+    if (galleryContainer) {
+      galleryContainer.addEventListener('mouseenter', stopAutoSlide);
+      galleryContainer.addEventListener('mouseleave', startAutoSlide);
+    }
+
+    // Interactive Hover Zoom on Main View
+    if (mainView && mainImgEl) {
+      mainView.addEventListener('mousemove', (e) => {
+        stopAutoSlide();
+        const rect = mainView.getBoundingClientRect();
+        const x = ((e.clientX - rect.left) / rect.width) * 100;
+        const y = ((e.clientY - rect.top) / rect.height) * 100;
+
+        mainView.classList.add('is-zooming');
+        mainImgEl.style.transformOrigin = `${x}% ${y}%`;
+        mainImgEl.style.transform = 'scale(2.2)';
+      });
+
+      mainView.addEventListener('mouseleave', () => {
+        mainView.classList.remove('is-zooming');
+        mainImgEl.style.transformOrigin = 'center center';
+        mainImgEl.style.transform = 'scale(1)';
+        startAutoSlide();
+      });
+
+      // Mobile Touch Interaction
+      mainView.addEventListener('touchstart', (e) => {
+        stopAutoSlide();
+      }, { passive: true });
+
+      mainView.addEventListener('touchmove', (e) => {
+        if (e.touches.length === 1) {
+          const touch = e.touches[0];
+          const rect = mainView.getBoundingClientRect();
+          const x = ((touch.clientX - rect.left) / rect.width) * 100;
+          const y = ((touch.clientY - rect.top) / rect.height) * 100;
+          if (x >= 0 && x <= 100 && y >= 0 && y <= 100) {
+            mainView.classList.add('is-zooming');
+            mainImgEl.style.transformOrigin = `${x}% ${y}%`;
+            mainImgEl.style.transform = 'scale(2.0)';
+          }
+        }
+      }, { passive: true });
+
+      mainView.addEventListener('touchend', () => {
+        mainView.classList.remove('is-zooming');
+        mainImgEl.style.transformOrigin = 'center center';
+        mainImgEl.style.transform = 'scale(1)';
+        startAutoSlide();
+      }, { passive: true });
+    }
+
+    // Start auto slide initially
+    startAutoSlide();
 
     // Accordions
     const accordionPanels = document.querySelectorAll('.accordion-panel, .accordion-item');
@@ -294,8 +424,292 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // =============================================
-  // 7. ADD TO CART
+  // 7. CART DRAWER & STATE MANAGEMENT
   // =============================================
+  const DEFAULT_CART = [
+    {
+      id: 'kem-nghe',
+      name: 'KEM NGHỆ GIẢM THÂM SẸO THORAKAO',
+      variant: 'Hũ 7g - Tinh chất nghệ tươi',
+      price: 18000,
+      qty: 2,
+      image: 'images/Rectangle_4.png'
+    },
+    {
+      id: 'bo-ket',
+      name: 'DẦU GỘI BỒ KẾT THORAKAO',
+      variant: 'Chai vòi nhấn 400ml',
+      price: 65000,
+      qty: 1,
+      image: 'images/category.png'
+    }
+  ];
+
+  let cart = [];
+  try {
+    const saved = localStorage.getItem('thorakao_cart_items_v2');
+    cart = saved ? JSON.parse(saved) : DEFAULT_CART;
+  } catch (e) {
+    cart = DEFAULT_CART;
+  }
+
+  let appliedDiscount = 0; // percentage (0.1 for 10%)
+  const FREESHIP_THRESHOLD = 200000;
+  const STANDARD_SHIPPING = 25000;
+
+  const cartDrawerOverlay = document.getElementById('cartDrawerOverlay');
+  const cartDrawerBackdrop = document.getElementById('cartDrawerBackdrop');
+  const closeCartDrawerBtn = document.getElementById('closeCartDrawer');
+  const cartItemsList = document.getElementById('cartItemsList');
+  const drawerCartBadge = document.getElementById('drawerCartBadge');
+  const navCartCount = document.getElementById('cartCount');
+  const freeshipMessage = document.getElementById('freeshipMessage');
+  const freeshipProgressFill = document.getElementById('freeshipProgressFill');
+  const cartSubtotal = document.getElementById('cartSubtotal');
+  const cartDiscountRow = document.getElementById('cartDiscountRow');
+  const cartDiscount = document.getElementById('cartDiscount');
+  const cartShipping = document.getElementById('cartShipping');
+  const cartGrandTotal = document.getElementById('cartGrandTotal');
+  const btnApplyVoucher = document.getElementById('btnApplyVoucher');
+  const voucherCodeInput = document.getElementById('voucherCodeInput');
+  const btnUpsellAdd = document.getElementById('btnUpsellAdd');
+  const btnDrawerCheckout = document.getElementById('btnDrawerCheckout');
+
+  function saveCart() {
+    localStorage.setItem('thorakao_cart_items_v2', JSON.stringify(cart));
+  }
+
+  function formatCurrency(num) {
+    return num.toLocaleString('vi-VN') + '₫';
+  }
+
+  function openCartDrawer() {
+    if (cartDrawerOverlay) {
+      cartDrawerOverlay.classList.add('active');
+      cartDrawerOverlay.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      renderCart();
+    }
+  }
+
+  function closeCartDrawer() {
+    if (cartDrawerOverlay) {
+      cartDrawerOverlay.classList.remove('active');
+      cartDrawerOverlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+  }
+
+  function renderCart() {
+    const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+
+    // Update Badges
+    if (drawerCartBadge) drawerCartBadge.textContent = totalQty;
+    if (navCartCount) navCartCount.textContent = totalQty;
+
+    // Free Shipping Progress
+    if (freeshipMessage && freeshipProgressFill) {
+      if (subtotal === 0) {
+        freeshipMessage.innerHTML = `Mua thêm <strong>${formatCurrency(FREESHIP_THRESHOLD)}</strong> để được <strong>Freeship</strong>`;
+        freeshipProgressFill.style.width = '0%';
+        freeshipProgressFill.style.background = 'linear-gradient(90deg, #E86C2E 0%, #0037BD 100%)';
+      } else if (subtotal >= FREESHIP_THRESHOLD) {
+        freeshipMessage.innerHTML = `🎉 Chúc mừng! Bạn đã được <strong>Miễn phí vận chuyển toàn quốc</strong>!`;
+        freeshipProgressFill.style.width = '100%';
+        freeshipProgressFill.style.background = '#28a745';
+      } else {
+        const remaining = FREESHIP_THRESHOLD - subtotal;
+        const percent = Math.min(100, Math.round((subtotal / FREESHIP_THRESHOLD) * 100));
+        freeshipMessage.innerHTML = `Mua thêm <strong>${formatCurrency(remaining)}</strong> để được <strong>Freeship</strong>`;
+        freeshipProgressFill.style.width = `${percent}%`;
+        freeshipProgressFill.style.background = 'linear-gradient(90deg, #E86C2E 0%, #0037BD 100%)';
+      }
+    }
+
+    // Render Items
+    if (!cartItemsList) return;
+
+    if (cart.length === 0) {
+      cartItemsList.innerHTML = `
+        <div class="cart-empty-state">
+          <div class="cart-empty-icon">🛍️</div>
+          <h4 class="cart-empty-title">GIỎ HÀNG TRỐNG</h4>
+          <p class="cart-empty-desc">Chưa có sản phẩm nào trong giỏ hàng. Hãy khám phá các giải pháp làm đẹp thiên nhiên từ Thorakao.</p>
+          <button type="button" class="btn-empty-shop" id="btnEmptyShop">Khám phá sản phẩm ngay</button>
+        </div>
+      `;
+      const btnEmptyShop = document.getElementById('btnEmptyShop');
+      if (btnEmptyShop) {
+        btnEmptyShop.addEventListener('click', () => {
+          closeCartDrawer();
+          window.location.href = 'product.html';
+        });
+      }
+    } else {
+      cartItemsList.innerHTML = cart.map((item, idx) => `
+        <div class="cart-item-card" data-idx="${idx}">
+          <div class="cart-item-thumb">
+            <img src="${item.image}" alt="${item.name}">
+          </div>
+          <div class="cart-item-details">
+            <h4 class="cart-item-name" title="${item.name}">${item.name}</h4>
+            <span class="cart-item-variant">${item.variant}</span>
+            <div class="cart-item-price-row">
+              <span class="cart-item-price">${formatCurrency(item.price)}</span>
+              <div class="cart-item-qty-wrap">
+                <button type="button" class="cart-qty-btn btn-cart-minus" data-idx="${idx}" aria-label="Giảm">−</button>
+                <span class="cart-qty-num">${item.qty}</span>
+                <button type="button" class="cart-qty-btn btn-cart-plus" data-idx="${idx}" aria-label="Tăng">+</button>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="cart-item-remove-btn" data-idx="${idx}" aria-label="Xóa">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="3 6 5 6 21 6"/>
+              <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+            </svg>
+          </button>
+        </div>
+      `).join('');
+
+      // Add Qty & Remove Event Listeners
+      cartItemsList.querySelectorAll('.btn-cart-minus').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const i = parseInt(btn.getAttribute('data-idx'), 10);
+          if (cart[i].qty > 1) {
+            cart[i].qty -= 1;
+          } else {
+            cart.splice(i, 1);
+          }
+          saveCart();
+          renderCart();
+        });
+      });
+
+      cartItemsList.querySelectorAll('.btn-cart-plus').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const i = parseInt(btn.getAttribute('data-idx'), 10);
+          cart[i].qty += 1;
+          saveCart();
+          renderCart();
+        });
+      });
+
+      cartItemsList.querySelectorAll('.cart-item-remove-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const i = parseInt(btn.getAttribute('data-idx'), 10);
+          cart.splice(i, 1);
+          saveCart();
+          renderCart();
+        });
+      });
+    }
+
+    // Totals Breakdown
+    const discountAmount = subtotal * appliedDiscount;
+    const shippingFee = (subtotal >= FREESHIP_THRESHOLD || subtotal === 0) ? 0 : STANDARD_SHIPPING;
+    const grandTotal = Math.max(0, subtotal - discountAmount + shippingFee);
+
+    if (cartSubtotal) cartSubtotal.textContent = formatCurrency(subtotal);
+    
+    if (cartDiscountRow && cartDiscount) {
+      if (appliedDiscount > 0) {
+        cartDiscountRow.style.display = 'flex';
+        cartDiscount.textContent = `-${formatCurrency(discountAmount)}`;
+      } else {
+        cartDiscountRow.style.display = 'none';
+      }
+    }
+
+    if (cartShipping) {
+      cartShipping.textContent = shippingFee === 0 ? (subtotal === 0 ? '0₫' : 'Miễn phí (0₫)') : formatCurrency(shippingFee);
+    }
+
+    if (cartGrandTotal) cartGrandTotal.textContent = formatCurrency(grandTotal);
+  }
+
+  // Bind Nav Cart Click
+  document.querySelectorAll('.cart-pill-link, #cartLink').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      openCartDrawer();
+    });
+  });
+
+  // Bind Close Buttons
+  if (closeCartDrawerBtn) closeCartDrawerBtn.addEventListener('click', closeCartDrawer);
+  if (cartDrawerBackdrop) cartDrawerBackdrop.addEventListener('click', closeCartDrawer);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && cartDrawerOverlay && cartDrawerOverlay.classList.contains('active')) {
+      closeCartDrawer();
+    }
+  });
+
+  // Upsell Button
+  if (btnUpsellAdd) {
+    btnUpsellAdd.addEventListener('click', () => {
+      const existing = cart.find(item => item.id === 'bo-hat-mo');
+      if (existing) {
+        existing.qty += 1;
+      } else {
+        cart.push({
+          id: 'bo-hat-mo',
+          name: 'Kem dưỡng da tay Bơ Hạt Mỡ',
+          variant: 'Tuýp 80ml - Dưỡng ẩm sâu',
+          price: 35000,
+          qty: 1,
+          image: 'images/Rectangle_4_2.png'
+        });
+      }
+      saveCart();
+      renderCart();
+      btnUpsellAdd.textContent = '✓ Đã thêm';
+      btnUpsellAdd.style.background = '#28a745';
+      btnUpsellAdd.style.color = '#fff';
+      setTimeout(() => {
+        btnUpsellAdd.textContent = '+ Thêm';
+        btnUpsellAdd.style.background = '';
+        btnUpsellAdd.style.color = '';
+      }, 1500);
+    });
+  }
+
+  // Voucher Apply
+  if (btnApplyVoucher && voucherCodeInput) {
+    btnApplyVoucher.addEventListener('click', () => {
+      const code = voucherCodeInput.value.trim().toUpperCase();
+      if (code === 'THORAKAO10' || code === 'GIAM10') {
+        appliedDiscount = 0.1;
+        btnApplyVoucher.textContent = '✓ Đã áp dụng';
+        btnApplyVoucher.style.background = '#28a745';
+        btnApplyVoucher.style.color = '#fff';
+        renderCart();
+      } else if (code === '') {
+        appliedDiscount = 0;
+        renderCart();
+      } else {
+        voucherCodeInput.style.animation = 'none';
+        voucherCodeInput.offsetHeight;
+        voucherCodeInput.style.animation = 'shake 0.4s ease';
+        alert('Mã giảm giá không hợp lệ! Hãy thử nhập mã: THORAKAO10');
+      }
+    });
+  }
+
+  // Checkout Button
+  if (btnDrawerCheckout) {
+    btnDrawerCheckout.addEventListener('click', () => {
+      if (cart.length === 0) {
+        alert('Giỏ hàng của bạn đang trống!');
+        return;
+      }
+      const totalText = cartGrandTotal ? cartGrandTotal.textContent : '';
+      alert(`🎉 Cảm ơn quý khách!\n\nĐơn hàng trị giá ${totalText} đang được chuyển tiếp tới hệ thống đặt hàng Thorakao.`);
+    });
+  }
+
+  // Product Page: Add to Cart Button
   const btnAddCart = document.getElementById('btnAddCart');
   if (btnAddCart) {
     btnAddCart.addEventListener('click', () => {
@@ -308,14 +722,30 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      const cartCount = document.getElementById('cartCount');
-      if (cartCount) {
-        let current = parseInt(cartCount.textContent, 10);
-        cartCount.textContent = current + qty;
-        localStorage.setItem('thorakao_cart_count', cartCount.textContent);
+      // Add product to cart
+      const currentProduct = {
+        id: 'kem-nghe',
+        name: 'KEM NGHỆ GIẢM THÂM SẸO THORAKAO',
+        variant: 'Hũ 7g - Tinh chất nghệ tươi',
+        price: 18000,
+        qty: qty,
+        image: 'images/Rectangle_4.png'
+      };
+
+      const existingIndex = cart.findIndex(item => item.id === currentProduct.id);
+      if (existingIndex > -1) {
+        cart[existingIndex].qty += qty;
+      } else {
+        cart.push(currentProduct);
       }
 
-      qtyValue.textContent = '0';
+      saveCart();
+      renderCart();
+
+      // Reset Selector
+      if (qtyValue) qtyValue.textContent = '0';
+
+      // Feedback on button
       const originalText = btnAddCart.textContent;
       btnAddCart.textContent = '✓ ĐÃ THÊM VÀO GIỎ';
       btnAddCart.style.background = '#003FB9';
@@ -323,11 +753,13 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         btnAddCart.textContent = originalText;
         btnAddCart.style.background = '';
-      }, 2000);
+        openCartDrawer(); // Auto open drawer to delight user!
+      }, 600);
     });
   }
 
-  // =============================================
+  // Initial render
+  renderCart();
   // 8. ACCORDIONS
   // =============================================
   const accordionToggles = document.querySelectorAll('.accordion-toggle, .accordion-header');
